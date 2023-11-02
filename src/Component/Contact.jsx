@@ -29,7 +29,7 @@ const Contact = () => {
       </div>
       <div className="container-fluid contact_div">
         <div className="row">
-          <div className="col-md-6 col-10 mx-auto">
+          <div className="col-md-6 mb-3 col-10 mx-auto">
             <form onSubmit={formSubmit}>
               <div className="mb-2">
                 <label htmlFor="name" className="form-label">

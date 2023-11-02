@@ -38,3 +38,50 @@
 .navbar-dark-custom .navbar-toggler-icon {
   color: white;
 }
+.footer-links {
+  display: flex;
+  align-items: center;
+}
+
+
+.footer {
+  padding-top: 20px;
+  padding-bottom: 5px;
+  background-color: #333;
+  color: white;
+  width: 100%;
+  background-color:rgb(0,0,0);
+  
+  text-align: center;
+  box-shadow: 0px -2px 4px rgba(0, 0, 0, 0.1); 
+}
+
+.social-media-icons {
+
+  justify-content:center;
+  color:white;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.social-media-icons a {
+  color: #fff; 
+  margin: 0 10px; 
+  font-size: 14px; 
+}
+
+.social-media-icons a:hover {
+  color: #007bff; /* Color on hover */
+}
+.intro {
+  color:white;
+  font-size: 14px;
+  margin-top: 15px;
+}
+
+.intro h6 {
+  font-weight: bold;
+}
+.text-center p{
+  color: white;
+}

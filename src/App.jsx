@@ -4,6 +4,7 @@ import About from "./Component/About"
 import Contact from "./Component/Contact"
 import Home from "./Component/Home"
 import Service from "./Component/Service"
+import Footer from "./Component/Footer"
 import Navbar from "./Navbar"
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -21,6 +22,7 @@ export default function App() {
           {/* <Redirect to="/" /> */}
 
         </Routes>
+        <Footer />
       </Router>
     </>
    
