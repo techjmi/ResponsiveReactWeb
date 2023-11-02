@@ -1,0 +1,40 @@
+*{
+  padding:0;
+  margin:0;
+}
+.navbar-nav li{
+  color:#fff
+}
+.nav-link{
+   color:#fff
+}
+
+.white-text {
+  color: white;
+}
+.menu_active{
+  font-weight:bold;
+  border-bottom:1px solid #fff;
+}
+#header{
+  width:100%;
+  height:80vh;
+  margin-top:30px;
+}
+
+@keyframes moveUpDown {
+  0%, 100% {
+    transform: translateY(0); 
+  }
+  50% {
+    transform: translateY(-5px); 
+  }
+}
+
+.animated {
+  animation: moveUpDown 2s infinite;
+}
+
+.navbar-dark-custom .navbar-toggler-icon {
+  color: white;
+}
